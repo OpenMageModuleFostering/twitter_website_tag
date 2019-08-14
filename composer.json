@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Twitter_Website_Tag",
+    "type": "magento-module",
+    "license": "Open-Software-License-(OSL)",
+    "homepage": "",
+    "description": "The Twitter Website Tag for “All Site Visits” is for advertisers that want to retarget their users and track conversions using Twitter Ads.",
+    "authors": [
+    {
+        "name": "Matthew Parke",
+        "email": "magento@engagecommerce.io"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

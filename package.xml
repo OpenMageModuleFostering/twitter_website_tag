@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>Twitter_Website_Tag</name>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <stability>stable</stability>
     <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
     <channel>community</channel>
@@ -11,10 +11,10 @@
     <notes>  - enable / disable support&#xD;
   - tag placement support for before head end, after body start, before body end&#xD;
   - 1 or multiple ids</notes>
-    <authors><author><name>Matthew Parke</name><user>MAG003281797</user><email>magento@engagecommerce.io</email></author></authors>
-    <date>2016-01-19</date>
-    <time>03:26:32</time>
-    <contents><target name="magecommunity"><dir name="EngageCommerce"><dir name="Facebook"><dir name="Helper"><file name="Data.php" hash="158b2fc989ce14874a367efc4ca1230c"/></dir><dir name="Model"><file name="LoadOrder.php" hash="f13667abcb7829b17ba60a0a79bc09a7"/></dir><dir name="etc"><file name="adminhtml.xml" hash="2eab2caba7f4d10f9ee00b0fd632c9f1"/><file name="config.xml" hash="4087bd41311f8166542051ef27b297d6"/><file name="system.xml" hash="4e0c7e732bf0345ddf3bbd11ef15904d"/></dir></dir><dir name="Twitter"><dir name="Helper"><file name="Data.php" hash="93d9f633995f0fca427ba297034fbb43"/></dir><dir name="Model"><file name="LoadOrder.php" hash="9a82e503ef91a2c8640aef3bfbc5ccab"/></dir><dir name="etc"><file name="adminhtml.xml" hash="43e5a363097a61d1395b85c4482b77fc"/><file name="config.xml" hash="55e81997fd5e1a2189816d8e6bf914d1"/><file name="system.xml" hash="fb7f723cc180a3659cf192175db4d752"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="engagecommerce_twitter.xml" hash="7e3a5862169b67f0c17128032ba8c9e4"/></dir><dir name="template"><dir name="EngageCommerce"><dir name="Facebook"><file name="facebook_pixel.phtml" hash="4cd885aefe7b17e4209494980f4174f0"/><file name="pixel_after_body_start.phtml" hash="bc736c6b035c00eaa67609909e803391"/><file name="pixel_before_body_end.phtml" hash="fcc01acfb82b6e1c137210fd4e73fb9c"/><file name="pixel_before_head_end.phtml" hash="115a6847c258f68e732679027ffbdba3"/></dir><dir name="Twitter"><file name="pixel_after_body_start.phtml" hash="077686f035e1d818981e7dc10735d8cc"/><file name="pixel_before_body_end.phtml" hash="2513dc3ea6c408d14531b166b4a1943d"/><file name="pixel_before_head_end.phtml" hash="05333c3260ee07540ceacb2d2fea52bc"/><file name="twitter_pixel.phtml" hash="27fb262373bacc7d8c47b88d0840144d"/></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="EngageCommerce_Twitter.xml" hash="c2d9521c37adace501eba81472789421"/></dir></target></contents>
+    <authors><author><name>Matthew Parke</name><user>MAG003281797</user><email>development@engagecommerce.io</email></author></authors>
+    <date>2016-01-23</date>
+    <time>01:11:42</time>
+    <contents><target name="magecommunity"><dir name="EngageCommerce"><dir name="Twitter"><dir name="Helper"><file name="Data.php" hash="93d9f633995f0fca427ba297034fbb43"/></dir><dir name="Model"><file name="LoadOrder.php" hash="9a82e503ef91a2c8640aef3bfbc5ccab"/></dir><dir name="etc"><file name="adminhtml.xml" hash="43e5a363097a61d1395b85c4482b77fc"/><file name="config.xml" hash="55e81997fd5e1a2189816d8e6bf914d1"/><file name="system.xml" hash="fb7f723cc180a3659cf192175db4d752"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="engagecommerce_twitter.xml" hash="7e3a5862169b67f0c17128032ba8c9e4"/></dir><dir name="template"><dir name="EngageCommerce"><dir name="Twitter"><file name="pixel_after_body_start.phtml" hash="077686f035e1d818981e7dc10735d8cc"/><file name="pixel_before_body_end.phtml" hash="2513dc3ea6c408d14531b166b4a1943d"/><file name="pixel_before_head_end.phtml" hash="05333c3260ee07540ceacb2d2fea52bc"/><file name="twitter_pixel.phtml" hash="27fb262373bacc7d8c47b88d0840144d"/></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="EngageCommerce_Twitter.xml" hash="c2d9521c37adace501eba81472789421"/></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
 </package>

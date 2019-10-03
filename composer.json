@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Twitter_Website_Tag",
+    "name": "openmage-module-fostering\/twitter_website_tag",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "The Twitter Website Tag for \u201cAll Site Visits\u201d is for advertisers that want to retarget their users and track conversions using Twitter Ads.",
     "authors": [
